@@ -1,0 +1,25 @@
+[[package]]
+name = "PyBluez"
+version = "0.23"
+description = ""
+category = "main"
+optional = false
+python-versions = "*"
+develop = false
+
+[package.extras]
+ble = ["gattlib (==0.20150805)"]
+
+[package.source]
+type = "git"
+url = "https://github.com/pybluez/pybluez"
+reference = "0.23"
+resolved_reference = "0998c40ebad69b3c8e2b3e90f1fd0c0879ce6a57"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.10"
+content-hash = "747b93a21848cd1a83f47ac753d31dcd73ab207002e2d0cc433866c0f46f7533"
+
+[metadata.files]
+PyBluez = []
